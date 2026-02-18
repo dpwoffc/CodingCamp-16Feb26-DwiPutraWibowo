@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@dpwoffc | Dwi Putra Wibowo | TODO List | CodingCamp | RevoU</title>
+    <link rel="stylesheet" href="style/style.css">
+    <meta name="color-scheme" content="light">
+    <meta name="theme-color" content="#ffffff">
+</head>
+<body>
+    <main class="app">
+        <section class="glass">
+            <header class="top">
+                <div class="left-controls">
+                    <select id="filterSelect" aria-label="Filter">
+                        <option value="all">Semua</option>
+                        <option value="besok">Besok</option>
+                        <option value="lusa">Lusa</option>
+                        <option value="terdekat">Terdekat</option>
+                        <option value="terbaru">Terbaru</option>
+                        <option value="terlama">Terlama</option>
+                    </select>
+                </div>
+                <h1>TODO List</h1>
+                <div class="right-controls">
+                    <button id="addBtn" class="btn btn-green">+ Add Todo</button>
+                </div>
+            </header>
+
+            <div class="table-box">
+                <table id="todoTable">
+                    <thead>
+                        <tr>
+                            <th>Tanggal</th>
+                            <th>Nama Kegiatan</th>
+                            <th>Countdown</th>
+                            <th>Aksi</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+            </div>
+
+        </section>
+    </main>
+
+    <div id="modal" class="modal hidden">
+        <form id="todoForm" class="form">
+            <h2>Tambah Todo</h2>
+            <label>
+                Tanggal & Waktu
+                <input id="datetime" type="datetime-local" required>
+            </label>
+            <label>
+                Nama Kegiatan
+                <input id="title" type="text" placeholder="Nama kegiatan" required>
+            </label>
+            <div class="form-actions">
+                <button type="button" id="cancelBtn" class="btn btn-red">Cancel</button>
+                <button type="submit" class="btn btn-green">Add</button>
+            </div>
+        </form>
+    </div>
+
+    <script src="script/script.js"></script>
+</body>
+</html>
