@@ -1,5 +1,3 @@
----
-
 # 📌 CodingCamp – 16 Feb 2026
 
 **Project by Dwi Putra Wibowo**
