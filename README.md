@@ -92,7 +92,7 @@ Project ini dibuat untuk:
 
 ## 👤 Author
 
-** @dpwoffc | Dwi Putra Wibowo **
+**@dpwoffc | Dwi Putra Wibowo**
 Coding Camp – 16 Februari 2026
 
 ---
